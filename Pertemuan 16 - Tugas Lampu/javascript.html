@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tutorial Lampu</title>
+</head>
+
+<body>  
+    <img id="Lampunya" src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-earth-off-lights-for-1-hour-image_1187267.jpg" height="180" width="150">
+    <button type="button" onclick="LampuNyala()"> Nyalakan Lampu</button><br>
+    <button type="button" onclick="LampuMati()"> Matikan Lampu</button><br>
+
+    <script>
+        var image = document.getElementById("Lampunya")
+        function LampuNyala(){
+            image.src="https://w7.pngwing.com/pngs/33/977/png-transparent-incandescent-light-bulb-lighting-transparency-and-translucency-bulb-light-fixture-lamp-material.png"
+        }
+        function LampuMati(){
+            image.src="https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-earth-off-lights-for-1-hour-image_1187267.jpg"
+        }
+    </script>
+
+</body>
+
+</html>
